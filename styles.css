@@ -20,7 +20,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--pale-blue);
-/* centering main */
+  /* centering main */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -91,7 +91,7 @@ p {
   color: var(--velvet-blue);
 }
 
-h6 {
+h2 {
   font-weight: 900;
   color: var(--dark-blue);
 }
@@ -133,4 +133,13 @@ button {
 
 .cancel:hover {
   color: var(--dark-blue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
